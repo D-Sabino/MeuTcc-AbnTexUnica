@@ -1,0 +1,335 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Customizações do abnTeX2 para a Faculdade ÚNICA de Ipatinga-MG %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[
+	12pt,														% Tamanho da fonte 12pt
+    a4paper,													% Tamanho da folha A4
+    chapter=TITLE,												% Títulos de capítulos convertidos em letras maiúsculas
+    oneside,            										% Usada para impressao em apenas uma face do papel
+    english,													% Idioma adicional para hifenização
+    spanish,													% Idioma adicional para hifenização
+	brazil														% O último idioma é o principal do documento
+	]{abntex2}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%    Pacotes básicos    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage[utf8]{inputenc}		                       			% Codificacao do documento (conversão automática dos acentos)
+\usepackage[T1]{fontenc}		                       			% Codificação da fonte em 8 bits.
+\usepackage{amsfonts, amssymb, amsmath}                			% Fonte e símbolos matemáticos
+\usepackage{graphicx}			                       			% Inserir figuras
+\usepackage{booktabs}                                  			% Comandos para tabelas
+\usepackage{verbatim}                                  			% Texto é interpretado como escrito no documento
+\usepackage{indentfirst}		                      			% Indenta o primeiro parágrafo de cada seção
+\usepackage{lipsum}                                    			% Usar a simulação de texto Lorem Ipsum
+\usepackage{setspace}											% Espaçamento
+\usepackage{tocloft}                                   			% Permite alterar a formatação do Sumário
+\usepackage{etoolbox}                                  			% Usado para alterar a fonte da Section no Sumário
+\usepackage[nogroupskip,nonumberlist,acronym]{glossaries}       % Permite fazer o glossario
+\usepackage{caption}                                   			% Altera o comportamento da tag caption
+\usepackage{mathptmx}                                  			% Usa a fonte Times New Roman
+\usepackage{appendix}                                  			% Gerar o apendice no final do documento
+\usepackage{paracol}                                   			% Criar paragrafos sem identacao
+\usepackage{pdfpages}                                  			% Incluir pdf no documento
+\usepackage{xcolor}												% Permite trabalhar com cores dentro do ambiente do latex
+\usepackage{color}				                       			% Controle das cores
+\usepackage[skip=2pt,font=footnotesize]{caption}				% Diminuir tamanho da letra na figura
+\usepackage{float}
+\usepackage{algpseudocode,algorithm}
+\usepackage{url}												% Pacote para citação de URLs
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%  Pacotes de citações  %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf,abnt-full-initials=no,
+bibjustif,			% Justifica o texto da referência
+abnt-emphasize = bf, % destaca o titulo em negrito;
+abnt-and-type=e,
+abnt-url-package=url,
+abnt-repeated-author-omit=no,
+abnt-etal-cite=3, 	% Coloca et al a partir do quinto autor
+abnt-etal-list=3,
+abnt-etal-text=it]
+{abntex2cite}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Espacamentos nos titulos %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Capítulos
+\setlength{\beforechapskip}{-\onelineskip} %com 0 nao funcionou
+%\setlength{\afterchapskip}{\onelineskip} % antes do titulo de capitulo
+\setlength{\afterchapskip}{1.5cm}
+%\setlength\beforechapskip{-18pt}
+%\setlength{\afterchapskip}{2cm}
+
+% Seção
+%\setbeforesecskip{\onelineskip}
+\setbeforesecskip{18pt}
+\setaftersecskip{\onelineskip}
+
+% Subseção
+\setbeforesubsecskip{\onelineskip}
+\setaftersubsecskip{\onelineskip}
+
+% Subsubseção
+\setbeforesubsubsecskip{\onelineskip}
+\setaftersubsubsecskip{\onelineskip}
+
+% Subsubsubseção
+\setbeforeparaskip{\onelineskip}
+\setafterparaskip{\onelineskip}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% CONFIGURAÇÕES DE PACOTES %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\ABNTEXchapterfont}{\bfseries}
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Capa e Folha de Rosto %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Topicos/CapaFolhaRosto}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Local das Imagens     %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\graphicspath{ {./imagens/} }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Configurações de aparência do PDF final %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title},
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico},
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% color of internal links
+    	citecolor=black,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=black,
+		bookmarksdepth=4
+}
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Espaçamentos entre linhas e parágrafos %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.5cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Início do documento %%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ELEMENTOS PRÉ-TEXTUAIS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \pretextual
+
+%%%%%%%%%%
+%% Capa %%
+%%%%%%%%%%
+
+\imprimircapa
+
+%%%%%%%%%%%%%%%%%%%%
+%% Folha de rosto %%
+%%%%%%%%%%%%%%%%%%%%
+% (o * indica que haverá a ficha bibliográfica)
+
+\imprimirfolhaderosto*
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%% Folha de Aprovação %%
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{Topicos/Folhadeaprovacao}
+
+%%%%%%%%%%%%%%%%%
+%% Dedicatória %%
+%%%%%%%%%%%%%%%%%
+
+\include{Topicos/Dedicatoria}
+
+%%%%%%%%%%%%%%%%%%%%
+%% Agradecimentos %%
+%%%%%%%%%%%%%%%%%%%%
+
+\include{Topicos/Agradecimentos}
+
+%%%%%%%%%%%%%%
+%% Epígrafe %%
+%%%%%%%%%%%%%%
+
+\include{Topicos/Epigrafe}
+
+%%%%%%%%%%%%
+%% Resumo %%
+%%%%%%%%%%%%
+
+\include{Topicos/Resumo}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Inserir lista de ilustrações %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\pdfbookmark[0]{\listfigurename}{lof}
+\listoffigures*
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Inserir lista de tabelas %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Inserir lista de abreviaturas e siglas %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\include{Topicos/Abreviaturas}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Inserir lista de símbolos %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\begin{simbolos}
+%  \item[$ \Gamma $] Letra grega Gama
+%  \item[$ \Lambda $] Lambda
+% \item[$ \zeta $] Letra grega minúscula zeta
+%  \item[$ \in $] Pertence
+%\end{simbolos}
+
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Inserir o sumario %%
+%%%%%%%%%%%%%%%%%%%%%%%
+
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%% ELEMENTOS TEXTUAIS %%
+%%%%%%%%%%%%%%%%%%%%%%%%
+\textual
+
+\include{Topicos/Introducao}
+
+\include{Topicos/Referencial_Teorico}
+
+\include{Topicos/Metodologia}
+
+\include{Topicos/Desenvolvimento}
+
+\include{Topicos/Analise_Dados}
+
+% ----------------------------------------------------------
+% Finaliza a parte no bookmark do PDF
+% para que se inicie o bookmark na raiz
+% e adiciona espaço de parte no Sumário
+% ----------------------------------------------------------
+%\phantompart
+
+%%%%%%%%%%%%%%%
+%% Conclusão %%
+%%%%%%%%%%%%%%%
+
+\include{Topicos/Conclusao}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% ELEMENTOS PÓS-TEXTUAIS %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\postextual
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Referências bibliográficas %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\bibliography{Referencia}
+
+%%%%%%%%%%%%%%%
+%% Glossário %%
+%%%%%%%%%%%%%%%
+
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+
+%\glossary
+
+%%%%%%%%%%%%%%%
+%% Apêndices %%
+%%%%%%%%%%%%%%%
+
+\include{Topicos/Apendice}
+
+%%%%%%%%%%%%
+%% Anexos %%
+%%%%%%%%%%%%
+
+%\include{Topicos/Anexos}
+
+%%%%%%%%%%%%%%%%%%%%%%
+%% INDICE REMISSIVO %%
+%%%%%%%%%%%%%%%%%%%%%%
+
+\phantompart
+\printindex
+
+\end{document}

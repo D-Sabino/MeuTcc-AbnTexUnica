@@ -1,0 +1,64 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdu\IeC {\c c}\IeC {\~a}o}}{12}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Tema}{12}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Problema}{12}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}Hip\IeC {\'o}tese}{12}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}Justificativa}{12}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}Objetivos}{12}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Objetivo Geral}{12}{subsection.1.5.1}% 
+\contentsline {subsection}{\numberline {1.5.2}Objetivos Espec\IeC {\'\i }ficos}{13}{subsection.1.5.2}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Referencial Te\IeC {\'o}rico}}{14}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Back-end}{14}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Kotlin}{14}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}GraphQL}{14}{subsection.2.1.2}% 
+\contentsline {section}{\numberline {2.2}Base de Dados}{15}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}SQL Server}{15}{subsection.2.2.1}% 
+\contentsline {section}{\numberline {2.3}Computa\IeC {\c c}\IeC {\~a}o em nuvem}{16}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Amazon Web Services}{16}{subsection.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1.1}Relational Database Service}{17}{subsubsection.2.3.1.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1.2}Elastic Beanstalk}{17}{subsubsection.2.3.1.2}% 
+\contentsline {subsection}{\numberline {2.3.2}Google Cloud Platform}{18}{subsection.2.3.2}% 
+\contentsline {subsubsection}{\numberline {2.3.2.1}Application Programming Interface (API)}{18}{subsubsection.2.3.2.1}% 
+\contentsline {paragraph}{\numberline {2.3.2.1.1}Routes}{19}{paragraph.2.3.2.1.1}% 
+\contentsline {section}{\numberline {2.4}Engenharia de Software}{19}{section.2.4}% 
+\contentsline {section}{\numberline {2.5}Front-End}{20}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Flutter}{21}{subsection.2.5.1}% 
+\contentsline {section}{\numberline {2.6}Plataforma Mobile}{22}{section.2.6}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{23}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Tipo de Pesquisa}{23}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}M\IeC {\'e}todo de Realiza\IeC {\c c}\IeC {\~a}o}{23}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Coleta de Dados}{23}{section.3.3}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Desenvolvimento}}{28}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Diagrama de casos de uso}{28}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}Especifica\IeC {\c c}\IeC {\~o}es de caso de uso}{28}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Diagrama de atividades}{38}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}An\IeC {\'a}lise de requisitos}{39}{section.4.4}% 
+\contentsline {section}{\numberline {4.5}An\IeC {\'a}lise de dados}{40}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Documenta\IeC {\c c}\IeC {\~a}o do banco de dados}{41}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Requisitos e regras de neg\IeC {\'o}cio}{41}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Estado}{41}{subsection.4.6.2}% 
+\contentsline {subsection}{\numberline {4.6.3}Cidade}{41}{subsection.4.6.3}% 
+\contentsline {subsection}{\numberline {4.6.4}Bairro}{41}{subsection.4.6.4}% 
+\contentsline {subsection}{\numberline {4.6.5}Supermercado}{41}{subsection.4.6.5}% 
+\contentsline {subsection}{\numberline {4.6.6}Produto}{42}{subsection.4.6.6}% 
+\contentsline {subsection}{\numberline {4.6.7}Categoria}{42}{subsection.4.6.7}% 
+\contentsline {section}{\numberline {4.7}Dicion\IeC {\'a}rio de dados}{42}{section.4.7}% 
+\contentsline {section}{\numberline {4.8}Modelagem l\IeC {\'o}gica}{45}{section.4.8}% 
+\contentsline {section}{\numberline {4.9}Modelagem f\IeC {\'\i }sica}{46}{section.4.9}% 
+\contentsline {section}{\numberline {4.10}Cria\IeC {\c c}\IeC {\~a}o de Views}{51}{section.4.10}% 
+\contentsline {subsection}{\numberline {4.10.1}Diagrama de vis\IeC {\~o}es}{53}{subsection.4.10.1}% 
+\contentsline {section}{\numberline {4.11}Interface do aplicativo}{53}{section.4.11}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{61}{chapter.5}% 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{62}{section*.61}% 

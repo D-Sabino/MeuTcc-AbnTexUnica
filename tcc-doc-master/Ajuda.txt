@@ -1,0 +1,58 @@
+COMANDO PARA INSERIR FIGURAS
+
+
+\begin{figure}[H]
+    \centering
+    		\caption{Inserir título da imagem}
+        	\includegraphics[scale=0.5]{Imagens/nome da imagem sucedido de sua extensão}
+        	\fonte{Inserir a fonte da imagem}
+\end{figure}
+
+====================================================================================================================
+
+COMANDO PARA INSERIR LISTA NÃO NUMERADA
+
+
+\begin{itemize}
+        \item digite texto
+        \item digite texto
+        \item digite texto
+
+\end{itemize}
+
+
+=====================================================================================================================
+
+COMANDO PARA INSERIR LISTA NUMERADA
+
+
+\begin{enumerate}
+        \item digite texto
+        \item digite texto
+        \item digite texto
+
+\end{enumerate}
+
+=====================================================================================================================
+
+COMANDO PARA INSERIR TABELAS
+
+\begin{table}[h]
+	\centering
+	\caption{Inserir título da tabela}
+	\vspace{0.5cm}
+	\begin{tabular}{|c|c|c|}
+		\hline
+		Coluna 1 & Coluna 2 & Coluna 3\\
+		\hline
+		Coluna 1 & Coluna 2 & Coluna 3\\
+		\hline
+		Coluna 1 & Coluna 2 & Coluna 3\\
+		\hline
+		Coluna 1 & Coluna 2 & Coluna 3\\
+		\hline
+	\end{tabular}
+\end{table}
+
+
+=====================================================================================================================

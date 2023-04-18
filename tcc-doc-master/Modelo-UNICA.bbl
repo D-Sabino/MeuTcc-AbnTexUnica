@@ -1,0 +1,108 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Freire 2019]{flutter}
+\abntrefinfo{Freire}{FREIRE}{2019}
+{FREIRE, A. \textbf{Porquê nós achamos que Flutter vai nos ajudar a escalar o
+  desenvolvimento mobile no Nubank}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/flutter-comunidade-br/porqu\%C3\%AA-n\%C3\%B3s-achamos-que-flutter-vai-nos-ajudar-a-escalar-o-desenvolvimento-mobile-no-nubank-95d07b4554d7}.
+  Acesso em: 05 de outubro de 2019.}
+
+\bibitem[Google 2019]{googlecp}
+\abntrefinfo{Google}{GOOGLE}{2019a}
+{GOOGLE. \textbf{Google Cloud Platform Overview}. 2019.
+Dispon{\'\i}vel em: \url{https://cloud.google.com/docs/overview/}. Acesso em:
+  12 de Setembro de 2019.}
+
+\bibitem[Google 2019]{routes}
+\abntrefinfo{Google}{GOOGLE}{2019b}
+{GOOGLE. \textbf{Routes}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://cloud.google.com/maps-platform/routes/?hl=pt&utm\_source=google&utm\_medium=cpc&utm\_campaign=FY18-Q2-global-demandgen-paidsearchonnetworkhouseads-cs-maps\_contactsal\_saf&utm\_content=text-ad-none-none-DEV\_c-CRE\_351280161018-ADGP\_Hybrid+\%7C+AW+SEM+\%7C+SKWS+~+Routes+\%7C+BMM+\%7C+Routes+API-KWID\_43700044401405868-kwd-514129573874-userloc\_1001572&utm\_term=KW\_\%2Broute\%20\%2Bapi-ST\_\%2Broute+\%2Bapi&gclid=CjwKCAiAh5\_uBRA5EiwASW3IarDv3AgcCVP9nyVZJj260wjE\_yuugjRtd5dRLKx0qMP5m3qK2U7PQhoCBlAQAvD\_BwE}.
+  Acesso em: 12 de Setembro de 2019.}
+
+\bibitem[Hanashiro 2019]{graphqlrevolucionaria}
+\abntrefinfo{Hanashiro}{HANASHIRO}{2019}
+{HANASHIRO, A. \textbf{GraphQL: A revolucionária linguagem de consulta e
+  manipulação de dados para APIs}. [S.l.]: Casa do Código, 2019.}
+
+\bibitem[Hat 2019]{apiredhat}
+\abntrefinfo{Hat}{HAT}{2019}
+{HAT, R. \textbf{O que é uma API?} 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.redhat.com/pt-br/topics/api/what-are-application-programming-interfaces}.
+  Acesso em: 08 de Novembro de 2019.}
+
+\bibitem[Jemerov e Isakova 2017]{kotlinemacao}
+\abntrefinfo{Jemerov e Isakova}{JEMEROV; ISAKOVA}{2017}
+{JEMEROV, D.; ISAKOVA, S. \textbf{Kotlin em ação}. Novatec Editora, 2017.
+  Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books?id=Qaw2DwAAQBAJ\&printsec=frontcover\&hl=pt-BR\&source=gbs\_ge\_summary\_r\&cad=0\#v=onepage\&q\&f=false}.}
+
+\bibitem[Meirelles 2018]{meirellespesquisa29}
+\abntrefinfo{Meirelles}{MEIRELLES}{2018}
+{MEIRELLES, F.~S. \textbf{29º pesquisa anual do uso de ti}: Pesquisa anual
+  realizada pelo gvcia - centro de tecnologia de informação aplicada da
+  fgv-eaesp.
+[S.l.], 2018. Dispon{\'\i}vel em:
+  \url{https://eaesp.fgv.br/sites/eaesp.fgv.br/files/pesti2018gvciappt.pdf}.
+  Acesso em: 12 de setembro de 2019.}
+
+\bibitem[Nogare \textit{et al.} 2015]{sqlserevralemdoconceito}
+\abntrefinfo{Nogare \textit{et al.}}{NOGARE \textit{et al.}}{2015}
+{NOGARE, D. \textit{et al.} \textbf{Sql server além do conceito}. B2U Editora,
+  2015. Dispon{\'\i}vel em:
+  \url{http://www.diegonogare.net/SQLServer\_Alem\_do\_Conceito-BlogPost\_Collection.pdf}.}
+
+\bibitem[Oliveira 2018]{universoprograma}
+\abntrefinfo{Oliveira}{OLIVEIRA}{2018}
+{OLIVEIRA, W. \textbf{O universo da programação: Um guia de carreira em
+  desenvolvimento de software}. Casa do Código, 2018. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books/about/O\_universo\_da\_programação.html?id=Z1J1DwAAQBAJ&source=kp\_book\_description&redir\_esc=y}.}
+
+\bibitem[Pressman 2016]{engenhariadesoftware}
+\abntrefinfo{Pressman}{PRESSMAN}{2016}
+{PRESSMAN, R. \textbf{Engenharia De Software: Uma abordagem profissional}.
+  Mcgraw Hill - Artmed, 2016. Dispon{\'\i}vel em:
+  \url{https://books.google.com.br/books/about/Engenharia\_De\_Software.html?id=smNFvgAACAAJ&source=kp\_book\_description&redir\_esc=y}.}
+
+\bibitem[Services 2019]{aws2019}
+\abntrefinfo{Services}{SERVICES}{2019a}
+{SERVICES, A.~W. \textbf{Computação em nuvem com a AWS}. 2019.
+Dispon{\'\i}vel em: \url{https://aws.amazon.com/pt/what-is-aws/}. Acesso em: 12
+  de setembro de 2019.}
+
+\bibitem[Services 2019]{computnuvem}
+\abntrefinfo{Services}{SERVICES}{2019b}
+{SERVICES, A.~W. \textbf{O que é a computação em nuvem?} 2019.
+Dispon{\'\i}vel em: \url{https://aws.amazon.com/pt/what-is-cloud-computing/}.
+  Acesso em: 12 de setembro de 2019.}
+
+\bibitem[Services 2019]{reladataservice}
+\abntrefinfo{Services}{SERVICES}{2019c}
+{SERVICES, A.~W. \textbf{O que é Amazon Relational Database Service (Amazon
+  RDS)?} 2019.
+Dispon{\'\i}vel em:
+  \url{https://docs.aws.amazon.com/pt\_br/AmazonRDS/latest/UserGuide/Welcome.html}.
+  Acesso em: 12 de setembro de 2019.}
+
+\bibitem[Services 2019]{elasticbean}
+\abntrefinfo{Services}{SERVICES}{2019d}
+{SERVICES, A.~W. \textbf{O que é AWS Elastic Beanstalk?} 2019.
+Dispon{\'\i}vel em:
+  \url{https://docs.aws.amazon.com/pt\_br/elasticbeanstalk/latest/dg/Welcome.html}.
+  Acesso em: 12 de setembro de 2019.}
+
+\bibitem[Silva 2012]{projetobdr}
+\abntrefinfo{Silva}{SILVA}{2012}
+{SILVA, R. E.~S. da. \textbf{Projeto de Banco de Dados Relacional}. 2012.
+Dispon{\'\i}vel em:
+  \url{http://tics.ifsul.edu.br/matriz/conteudo/disciplinas/\_pdf/pbdr.pdf}.
+  Acesso em: 5 de Novembro de 2019.}
+
+\end{thebibliography}

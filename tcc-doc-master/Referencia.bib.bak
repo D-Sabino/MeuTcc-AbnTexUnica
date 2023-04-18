@@ -1,0 +1,29 @@
+% Encoding: UTF-8
+
+@Manual{meirellespesquisa29,
+  title         = {29º pesquisa anual do uso de ti},
+  author        = {Fernando S. Meirelles},
+  year          = {2018},
+  subtitle      = {Pesquisa anual realizada pelo GVcia - Centro de Tecnologia de Informação Aplicada da FGV-EAESP},
+  url           = {https://eaesp.fgv.br/sites/eaesp.fgv.br/files/pesti2018gvciappt.pdf},
+  urlaccessdate = {12 de setembro de 2019},
+}
+
+@Book{kotlinemacao,
+  title         = {Kotlin em ação},
+  publisher     = {Novatec Editora},
+  year          = {2017},
+  author        = {Dmitry Jemerov and Svetlana Isakova},
+  url           = {https://books.google.com.br/books?id=Qaw2DwAAQBAJ\&printsec=frontcover\&hl=pt-BR\&source=gbs_ge_summary_r\&cad=0#v=onepage\&q\&f=false},
+  urlaccessdate = {12 de setembro de 2019},
+}
+
+@Book{sqlserevralemdoconceito,
+  title     = {Sql server além do conceito},
+  publisher = {B2U Editora},
+  year      = {2015},
+  author    = {Diego Nogare and Edvaldo Castro and Demetrio Silva and Marcel Inowe and Marcos Freccia and Ivan Lima and Fabiano Amorim and Sulamita Dantas and Marcelo Fernandes and Cibelle Castro and Leandro Ribeiro and Luciano Moreira and Nilton Pinheiro and Tiago Balabuch and Felipe Ferreira},
+  url       = {http://www.diegonogare.net/SQLServer_Alem_do_Conceito-BlogPost_Collection.pdf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
